@@ -1,47 +1,135 @@
+/****************************************************
+author: Romeiros on Rails
+year: 2020
+****************************************************/
+
 /* Vou ir colocando o CSS da HOME todo aqui, 
 depois refatoramos, talkey?*/
 
+/* Shared */
+.btn {}
+
+
+/* Main */
 .main {
     height: 80vh;
     background-color: #081627;
 }
+.main__logo {}
+.main__header{}
+.main__callout{}
+.main__services{}
+.main__btn{}
 
+
+/* Companies */
 .companies {
     height: 20vh;
-    background-color: #FEE93E;
+    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
 }
 
+.companies__logo{}
+
+
+/* Packs */
 .packs {
     height: fit-content;
     background-color: #081627;
 }
 
+.packs__title{}
+.packs__description{}
+.packs__card{}
+.packs__card__title{}
+.packs__card__description{}
+.packs__card__services{}
+.packs__card__service--title {}
+.packs__card__service--description {}
+.packs__card__price{}
+.packs__card__deadline{}
+.packs__card__btn{}
+
+
+/* Workflow */
 .workflow {
     height: 500px;
-    background-color: #FEE93E;
+    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
 }
 
+.workflow__title {}
+.workflow__description {}
+.workflow__steps {}
+.workflow__btn {}
+
+
+/* Clients */
 .clients {
     height: 500px;
     background-color: #22193C;
 }
 
+.clients__title {}
+.clients__description {}
+.clients__cards {}
+.clients__card {}
+.clients__card {}
+.clients__card {}
+.clients__btn {}
+
+
+/* Us */
 .us {
     height: 500px;
     background-color: #081627;
 }
+.us__title {}
+.us__description {}
+.us__info {}
+.us__btn {}
 
+
+/* FAQ */
 .faq {
     height: 500px;
-    background-color: #FEE93E;
+    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
 }
+.faq__title {}
+.faq__description {}
+.faq__question {}
+.faq__question--title {}
+.faq__question--answer {}
+.faq__btn {}
 
+
+/* Team */
 .team {
     height: 800px;
     background-color: #081627;
 }
+.team__title {}
+.team__member {}
+.team__member__photo {}
+.team__member__info {}
+.team__member__info__title {}
+.team__member__info__description {}
+.team__member {}
+.team__member__photo {}
+.team__member__info {}
+.team__member__info__title {}
+.team__member__info__description {}
+.team__member {}
+.team__member__photo {}
+.team__member__info {}
+.team__member__info__title {}
+.team__member__info__description {}
+.team__btn {}
 
+
+/* Footer */
 .footer {
     height: 200px;
-    background-color: #FEE93E;
+    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
 }
+.footer__info {}
+.footer__logo {}
+.footer__year {}
