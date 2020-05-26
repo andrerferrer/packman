@@ -1,1 +1,47 @@
-// Specific CSS for your home-page
+/* Vou ir colocando o CSS da HOME todo aqui, 
+depois refatoramos, talkey?*/
+
+.main {
+    height: 80vh;
+    background-color: #081627;
+}
+
+.companies {
+    height: 20vh;
+    background-color: #FEE93E;
+}
+
+.packs {
+    height: fit-content;
+    background-color: #081627;
+}
+
+.workflow {
+    height: 500px;
+    background-color: #FEE93E;
+}
+
+.clients {
+    height: 500px;
+    background-color: #22193C;
+}
+
+.us {
+    height: 500px;
+    background-color: #081627;
+}
+
+.faq {
+    height: 500px;
+    background-color: #FEE93E;
+}
+
+.team {
+    height: 800px;
+    background-color: #081627;
+}
+
+.footer {
+    height: 200px;
+    background-color: #FEE93E;
+}
