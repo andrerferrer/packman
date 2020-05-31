@@ -13,7 +13,7 @@ depois refatoramos, talkey?*/
 /* Main */
 .main {
     height: 80vh;
-    background-color: #081627;
+    background-color: $primary-color;
 }
 .main__logo {}
 .main__header{}
@@ -25,7 +25,7 @@ depois refatoramos, talkey?*/
 /* Companies */
 .companies {
     height: 20vh;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
 }
 
 .companies__logo{}
@@ -34,7 +34,7 @@ depois refatoramos, talkey?*/
 /* Packs */
 .packs {
     height: fit-content;
-    background-color: #081627;
+    background-color: $primary-color;
 }
 
 .packs__title{}
@@ -53,7 +53,7 @@ depois refatoramos, talkey?*/
 /* Workflow */
 .workflow {
     height: 500px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
 }
 
 .workflow__title {}
@@ -65,7 +65,7 @@ depois refatoramos, talkey?*/
 /* Clients */
 .clients {
     height: 500px;
-    background-color: #22193C;
+    background-color: $secondary-color;
 }
 
 .clients__title {}
@@ -80,7 +80,7 @@ depois refatoramos, talkey?*/
 /* Us */
 .us {
     height: 500px;
-    background-color: #081627;
+    background-color: $primary-color;
 }
 .us__title {}
 .us__description {}
@@ -91,7 +91,7 @@ depois refatoramos, talkey?*/
 /* FAQ */
 .faq {
     height: 500px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
 }
 .faq__title {}
 .faq__description {}
@@ -104,7 +104,7 @@ depois refatoramos, talkey?*/
 /* Team */
 .team {
     height: 800px;
-    background-color: #081627;
+    background-color: $primary-color;
 }
 .team__title {}
 .team__member {}
@@ -128,7 +128,7 @@ depois refatoramos, talkey?*/
 /* Footer */
 .footer {
     height: 200px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
 }
 .footer__info {}
 .footer__logo {}
