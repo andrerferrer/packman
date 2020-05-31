@@ -103,13 +103,32 @@ depois refatoramos, talkey?*/
 
 /* Team */
 .team {
-    height: 800px;
+    height: fit-content;
     background-color: $primary-color;
     text-align: center;
+    padding: 50px 0;
+    
 }
-.team__title {}
-.team__member {}
-.team__member__photo {}
+.team__title {
+    color: yellow;
+    font-size: 35px;
+    margin: 15px 0;
+}
+.team__member {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    height: 550px;
+    width: auto;
+    background-color: red;
+    margin-bottom: 50px;
+}
+.team__member__photo {
+    height: 100px;
+    background-color: green;
+}
 .team__member__info {}
 .team__member__info__title {}
 .team__member__info__description {}
