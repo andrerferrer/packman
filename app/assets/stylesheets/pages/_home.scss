@@ -105,18 +105,9 @@ depois refatoramos, talkey?*/
 .team {
     height: 800px;
     background-color: $primary-color;
+    text-align: center;
 }
 .team__title {}
-.team__member {}
-.team__member__photo {}
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
-.team__member {}
-.team__member__photo {}
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
 .team__member {}
 .team__member__photo {}
 .team__member__info {}
@@ -129,7 +120,14 @@ depois refatoramos, talkey?*/
 .footer {
     height: 200px;
     background-image: $gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .footer__info {}
 .footer__logo {}
-.footer__year {}
+.footer__year {
+    font-weight: bold;
+    font-size: 20px;
+}
