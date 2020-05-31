@@ -106,7 +106,7 @@ depois refatoramos, talkey?*/
     height: fit-content;
     background-color: $primary-color;
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0;
     
 }
 .team__title {
@@ -116,22 +116,37 @@ depois refatoramos, talkey?*/
 }
 .team__member {
     display: grid;
-    grid-template-columns: 100px auto;
-    grid-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
     justify-content: center;
     align-content: center;
     height: 550px;
     width: auto;
-    background-color: red;
-    margin-bottom: 50px;
 }
+
 .team__member__photo {
-    height: 100px;
     background-color: green;
+    height: 450px;
+    width: 350px;
 }
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
+
+.team__member__info {
+    padding: 40px 0px;
+    width: 585px;
+    text-align: left;
+}
+
+.team__member__info__title {
+    color: $primary-text-color;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.team__member__info__description {
+    color: $primary-text-color;
+    padding-top: 15px;
+}
+
 .team__btn {}
 
 
