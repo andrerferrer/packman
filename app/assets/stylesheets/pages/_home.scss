@@ -8,6 +8,15 @@ depois refatoramos, talkey?*/
 
 /* Shared */
 .btn {}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 25px;
+}
+
+.description{}
 
 
 /* Main */
@@ -64,8 +73,10 @@ depois refatoramos, talkey?*/
 
 /* Clients */
 .clients {
+    text-align: center;
     height: 500px;
     background-color: $secondary-color;
+    padding: 90px 0;
 }
 
 .clients__title {}
@@ -79,26 +90,69 @@ depois refatoramos, talkey?*/
 
 /* Us */
 .us {
-    height: 500px;
+    text-align: center;
+    height: fit-content;
+    padding: 90px 0;
     background-color: $primary-color;
 }
-.us__title {}
-.us__description {}
-.us__info {}
+
+.us__title {    
+    color: $primary-text-color;
+}
+
+.us__subtitle {
+    color: $secondary-text-color;
+}
+
+.us__info {
+    color: $primary-text-color;
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: left;
+    font-size: 20px;
+}
+
 .us__btn {}
 
 
 /* FAQ */
 .faq {
-    height: 500px;
     background-image: $gradient;
+    height: fit-content;
+    padding: 90px 0;
+    text-align: center;
 }
-.faq__title {}
-.faq__description {}
-.faq__question {}
-.faq__question--title {}
-.faq__question--answer {}
-.faq__btn {}
+
+.faq__title {
+    color: $primary-color;
+
+}
+
+.faq__subtitle {
+    color: white;
+}
+
+.faq__questions {
+    margin: 45px 0;
+}
+
+.faq__question {
+    margin-bottom: 20px;
+}
+
+.faq__question--title {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.faq__question--answer {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.faq__btn {
+}
 
 
 /* Team */
@@ -111,7 +165,6 @@ depois refatoramos, talkey?*/
 }
 .team__title {
     color: yellow;
-    font-size: 35px;
     margin: 15px 0;
 }
 .team__member {
