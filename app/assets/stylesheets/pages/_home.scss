@@ -7,13 +7,21 @@ year: 2020
 depois refatoramos, talkey?*/
 
 /* Shared */
+.uppercase {
+    text-transform: uppercase;
+}
 .btn {}
+
 .title{
     font-size: 55px;
     font-weight: bold;
+    text-align: center;
 }
 .subtitle{
     font-size: 25px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .description{}
@@ -61,13 +69,27 @@ depois refatoramos, talkey?*/
 
 /* Workflow */
 .workflow {
-    height: 500px;
+    height: auto;
     background-image: $gradient;
+    padding: 60px;
 }
 
-.workflow__title {}
-.workflow__description {}
-.workflow__steps {}
+.workflow__title {
+    color: $primary-color;
+}
+
+.workflow__subtitle {
+    color: white;
+}
+
+.workflow__steps__card {
+    padding: 55px 0 0;
+    line-height: 2rem;
+    font-size: 20px;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
 .workflow__btn {}
 
 
