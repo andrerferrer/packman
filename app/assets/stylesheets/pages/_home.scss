@@ -29,11 +29,28 @@ depois refatoramos, talkey?*/
 
 /* Main */
 .main {
-    height: 80vh;
     background-color: $primary-color;
+    height: 85vh;
+    text-align: center;
+    display: grid;
 }
-.main__logo {}
-.main__header{}
+
+.main__logo {
+    color: $primary-text-color;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+.main__header{
+    color: $primary-text-color;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: -webkit-left;
+}
+
 .main__callout{}
 .main__services{}
 .main__btn{}
@@ -41,11 +58,19 @@ depois refatoramos, talkey?*/
 
 /* Companies */
 .companies {
-    height: 20vh;
     background-image: $gradient;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.companies__logo{}
+.companies__logo {
+    //example
+    background-color: red;
+    width: 85px;
+    height: 45px;
+}
 
 
 /* Packs */
@@ -80,15 +105,26 @@ depois refatoramos, talkey?*/
 
 .workflow__subtitle {
     color: white;
+    width: 50%;
+    margin-top: 10px;
 }
 
 .workflow__steps__card {
+    width: 50%;
     padding: 55px 0 0;
-    line-height: 2rem;
+    line-height: 2.2rem;
     font-size: 20px;
     list-style: none;
-    width: 80%;
     margin: 0 auto;
+
+}
+
+.workflow__steps {
+}
+
+.workflow__step {
+    list-style: none;
+    padding-bottom: 15px;
 }
 .workflow__btn {}
 
