@@ -12,11 +12,13 @@ depois refatoramos, talkey?*/
 .uppercase {
     text-transform: uppercase;
 }
+
 .title{
     font-size: 55px;
     font-weight: bold;
     text-align: center;
 }
+
 .subtitle{
     font-size: 25px;
     max-width: 80%;
@@ -24,7 +26,6 @@ depois refatoramos, talkey?*/
     text-align: center;
 }
 .description{}
-
 
 /* Main */
 .main {
@@ -34,15 +35,14 @@ depois refatoramos, talkey?*/
     display: grid;
 }
 
-.main__logo {
+.main-logo {
     color: $primary-text-color;
     font-size: 55px;
     font-weight: bold;
     margin-top: 40px;
 }
 
-
-.main__header{
+.main-header{
     color: $primary-text-color;
     width: 30%;
     margin: 0 auto;
@@ -50,9 +50,9 @@ depois refatoramos, talkey?*/
     text-align: -webkit-left;
 }
 
-.main__callout{}
-.main__services{}
-.main__btn{}
+.main-callout{}
+.main-services{}
+.main-btn{}
 
 
 /* Companies */
@@ -64,7 +64,7 @@ depois refatoramos, talkey?*/
     justify-content: space-evenly;
 }
 
-.companies__logo {
+.companies-logo {
     //example
     background-color: red;
     width: 85px;
@@ -78,17 +78,17 @@ depois refatoramos, talkey?*/
     background-color: $primary-color;
 }
 
-.packs__title{}
-.packs__description{}
-.packs__card{}
-.packs__card__title{}
-.packs__card__description{}
-.packs__card__services{}
-.packs__card__service--title {}
-.packs__card__service--description {}
-.packs__card__price{}
-.packs__card__deadline{}
-.packs__card__btn{}
+.packs-title{}
+.packs-description{}
+.packs-card{}
+.packs-card-title{}
+.packs-card-description{}
+.packs-card-services{}
+.packs-card-service--title {}
+.packs-card-service--description {}
+.packs-card-price{}
+.packs-card-deadline{}
+.packs-card-btn{}
 
 
 /* Workflow */
@@ -98,17 +98,17 @@ depois refatoramos, talkey?*/
     padding: 60px;
 }
 
-.workflow__title {
+.workflow-title {
     color: $primary-color;
 }
 
-.workflow__subtitle {
+.workflow-subtitle {
     color: white;
     width: 50%;
     margin-top: 10px;
 }
 
-.workflow__steps__card {
+.workflow-steps-card {
     width: 50%;
     padding: 55px 0 0;
     line-height: 2.2rem;
@@ -118,14 +118,14 @@ depois refatoramos, talkey?*/
 
 }
 
-.workflow__steps {
+.workflow-steps {
 }
 
-.workflow__step {
+.workflow-step {
     list-style: none;
     padding-bottom: 15px;
 }
-.workflow__btn {}
+.workflow-btn {}
 
 
 /* Clients */
@@ -136,13 +136,13 @@ depois refatoramos, talkey?*/
     padding: 90px 0;
 }
 
-.clients__title {}
-.clients__description {}
-.clients__cards {}
-.clients__card {}
-.clients__card {}
-.clients__card {}
-.clients__btn {}
+.clients-title {}
+.clients-description {}
+.clients-cards {}
+.clients-card {}
+.clients-card {}
+.clients-card {}
+.clients-btn {}
 
 
 /* Us */
@@ -153,15 +153,15 @@ depois refatoramos, talkey?*/
     background-color: $primary-color;
 }
 
-.us__title {    
+.us-title {    
     color: $primary-text-color;
 }
 
-.us__subtitle {
+.us-subtitle {
     color: $secondary-text-color;
 }
 
-.us__info {
+.us-info {
     color: $primary-text-color;
     max-width: 55%;
     margin: 0 auto;
@@ -170,7 +170,7 @@ depois refatoramos, talkey?*/
     font-size: 20px;
 }
 
-.us__btn {}
+.us-btn {}
 
 
 /* FAQ */
@@ -181,34 +181,34 @@ depois refatoramos, talkey?*/
     text-align: center;
 }
 
-.faq__title {
+.faq-title {
     color: $primary-color;
 
 }
 
-.faq__subtitle {
+.faq-subtitle {
     color: white;
 }
 
-.faq__questions {
+.faq-questions {
     margin: 45px 0;
 }
 
-.faq__question {
+.faq-question {
     margin-bottom: 20px;
 }
 
-.faq__question--title {
+.faq-question--title {
     font-weight: bold;
     font-size: 20px;
 
 }
-.faq__question--answer {
+.faq-question--answer {
     max-width: 50%;
     margin: 0 auto;
 }
 
-.faq__btn {
+.faq-btn {
 }
 
 
@@ -220,11 +220,11 @@ depois refatoramos, talkey?*/
     padding: 100px 0;
     
 }
-.team__title {
+.team-title {
     color: yellow;
     margin: 15px 0;
 }
-.team__member {
+.team-member {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 100px;
@@ -234,30 +234,30 @@ depois refatoramos, talkey?*/
     width: auto;
 }
 
-.team__member__photo {
+.team-member-photo {
     background-color: green;
     height: 450px;
     width: 350px;
 }
 
-.team__member__info {
+.team-member-info {
     padding: 40px 0px;
     width: 585px;
     text-align: left;
 }
 
-.team__member__info__title {
+.team-member-info-title {
     color: $primary-text-color;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
-.team__member__info__description {
+.team-member-info-description {
     color: $primary-text-color;
     padding-top: 15px;
 }
 
-.team__btn {}
+.team-btn {}
 
 
 /* Footer */
@@ -269,9 +269,9 @@ depois refatoramos, talkey?*/
     align-items: center;
 }
 
-.footer__info {}
-.footer__logo {}
-.footer__year {
+.footer-info {}
+.footer-logo {}
+.footer-year {
     font-weight: bold;
     font-size: 20px;
 }
