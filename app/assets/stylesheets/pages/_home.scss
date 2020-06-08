@@ -7,6 +7,10 @@ year: 2020
 depois refatoramos, talkey?*/
 
 /* Shared */
+* {
+    font-size: 20px;
+}
+
 .btn {}
 
 .uppercase {
@@ -112,7 +116,6 @@ depois refatoramos, talkey?*/
     width: 50%;
     padding: 55px 0 0;
     line-height: 2.2rem;
-    font-size: 20px;
     list-style: none;
     margin: 0 auto;
 
@@ -123,7 +126,7 @@ depois refatoramos, talkey?*/
 
 .workflow-step {
     list-style: none;
-    padding-bottom: 15px;
+    padding-bottom: 2rem;
 }
 .workflow-btn {}
 
@@ -165,9 +168,8 @@ depois refatoramos, talkey?*/
     color: $primary-text-color;
     max-width: 55%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 5rem 0;
     text-align: left;
-    font-size: 20px;
 }
 
 .us-btn {}
@@ -177,7 +179,7 @@ depois refatoramos, talkey?*/
 .faq {
     background-image: $gradient;
     height: fit-content;
-    padding: 90px 0;
+    padding: 5rem 0;
     text-align: center;
 }
 
@@ -191,16 +193,16 @@ depois refatoramos, talkey?*/
 }
 
 .faq-questions {
-    margin: 45px 0;
+    margin: 2rem 0;
 }
 
 .faq-question {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .faq-question--title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.1rem;
 
 }
 .faq-question--answer {
@@ -273,5 +275,4 @@ depois refatoramos, talkey?*/
 .footer-logo {}
 .footer-year {
     font-weight: bold;
-    font-size: 20px;
 }
