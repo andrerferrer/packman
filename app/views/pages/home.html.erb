@@ -11,12 +11,17 @@
     </div>
 </div>
 <div class="companies">
-  <!-- 'href' points to a destination (qhen the user clicks). -->
+  <!-- 'href' points to a destination (when the user clicks). -->
   <!-- to give an image to a link you gotta change 'src' (source) -->
     <a><img class="companies-logo" href= # src=<%= image_path("logos/mcdonalds_logo") %> ></a>
-    <a><img class="companies-logo" href= # src=<%= image_path("logos/coca_cola_logo") %> ></a>
-    <a><img class="companies-logo" href= # src=<%= image_path("logos/mcdonalds_logo") %> ></a>
-    <a><img class="companies-logo" href= # src=<%= image_path("logos/mcdonalds_logo") %> ></a>
+
+  <!-- One other option doesn't need you to write html from scratch and
+  is with 'link_to', which is a helper to build links dinamically -->
+    <%= link_to image_tag("logos/mcdonalds_logo", class: "companies-logo"), root_path %>
+    <%= link_to image_tag("logos/mcdonalds_logo", class: "companies-logo"), root_path %>
+    <%= link_to image_tag("logos/mcdonalds_logo", class: "companies-logo"), root_path %>
+    <%= link_to image_tag("logos/mcdonalds_logo", class: "companies-logo"), root_path %>
+
 
     <a><img class="companies-logo" href="../../../app/assets/images/logos/busch-gardens-4200.svg"></a>
 </div>
