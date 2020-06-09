@@ -11,23 +11,22 @@ depois refatoramos, talkey?*/
     font-size: 20px;
 }
 
-.btn {}
-
 .uppercase {
     text-transform: uppercase;
 }
 
 .title{
-    font-size: 55px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
 
 .subtitle{
-    font-size: 25px;
+    font-size: 1rem;
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
+    font-weight: bold;
 }
 .description{}
 
@@ -88,8 +87,8 @@ depois refatoramos, talkey?*/
 .packs-card-title{}
 .packs-card-description{}
 .packs-card-services{}
-.packs-card-service--title {}
-.packs-card-service--description {}
+.packs-card-service-title {}
+.packs-card-service-description {}
 .packs-card-price{}
 .packs-card-deadline{}
 .packs-card-btn{}
@@ -200,12 +199,12 @@ depois refatoramos, talkey?*/
     margin-bottom: 1rem;
 }
 
-.faq-question--title {
+.faq-question-title {
     font-weight: bold;
     font-size: 1.1rem;
 
 }
-.faq-question--answer {
+.faq-question-answer {
     max-width: 50%;
     margin: 0 auto;
 }
@@ -224,7 +223,7 @@ depois refatoramos, talkey?*/
 }
 .team-title {
     color: yellow;
-    margin: 15px 0;
+    margin: 3rem 0;
 }
 .team-member {
     display: grid;
