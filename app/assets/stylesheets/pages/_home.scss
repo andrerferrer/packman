@@ -47,16 +47,28 @@ depois refatoramos, talkey?*/
     grid-gap: 45px;
     padding: 7rem;
 }
+
 .packs-card{
     background-color: #7FF6E6;
     border-radius: 10px;
     text-align: center;
 }
 
-.packs-card-services-list {
-    list-style-type: none;
+.packs-card-optional {
+    background-color: #ffc736;
+    .packs-card-title {
+        color: white;
+        text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 0px
+    }
+    .packs-card-description {
+        color: #7FF6E6;
+    }
 }
 
+.packs-card-services-list {
+    list-style-type: none;
+    width: 90%;
+}
 
 .packs-card-title{
     text-transform: uppercase;
