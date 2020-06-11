@@ -37,17 +37,40 @@ depois refatoramos, talkey?*/
     background-color: #081627;
 }
 
-.packs__title{}
-.packs__description{}
-.packs__card{}
-.packs__card__title{}
-.packs__card__description{}
-.packs__card__services{}
-.packs__card__service--title {}
-.packs__card__service--description {}
-.packs__card__price{}
-.packs__card__deadline{}
-.packs__card__btn{}
+.packs-title{}
+.packs-description{}
+
+.packs-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 45px;
+    padding: 3rem;
+}
+.packs-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.packs-card-services-list {
+    list-style-type: none;
+}
+
+
+.packs-card-title{}
+
+.packs-card-description{}
+.packs-card-services{}
+
+.packs-card-service-title {
+    text-align: left;
+}
+.packs-card-service-description {
+    text-align: left;
+}
+.packs-card-price{}
+.packs-card-deadline{}
+.packs-card-btn{}
 
 
 /* Workflow */
