@@ -35,6 +35,7 @@ depois refatoramos, talkey?*/
 .packs {
     height: fit-content;
     background-color: #081627;
+    text-align: center;
 }
 
 .packs-title{}
@@ -47,7 +48,7 @@ depois refatoramos, talkey?*/
     padding: 3rem;
 }
 .packs-card{
-    background-color: white;
+    background-color: #7FF6E6;
     border-radius: 10px;
     text-align: center;
 }
@@ -57,20 +58,55 @@ depois refatoramos, talkey?*/
 }
 
 
-.packs-card-title{}
+.packs-card-title{
+    text-transform: uppercase;
+    width: 50%;
+    margin: 3rem auto 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+}
 
-.packs-card-description{}
+.packs-card-description{
+    width: 72%;
+    margin: 1rem auto 2rem;
+    color: #FFC70F;
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    font-size: 1.6rem;
+    font-family: wfont_ce1165_9245280adeea4022bb1edf97db4932e0,wf_9245280adeea4022bb1edf97d,orig_gotham_rounded_bold;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
 .packs-card-services{}
 
 .packs-card-service-title {
     text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .packs-card-service-description {
     text-align: left;
+    margin-bottom: 1.1rem;
 }
-.packs-card-price{}
-.packs-card-deadline{}
-.packs-card-btn{}
+.packs-card-price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem auto 0;
+}
+
+.packs-card-deadline{
+    font-size: 1rem;
+}
+
+.packs-card-btn{
+    margin: 1.5rem auto 3.5rem;
+}
+
+.packs-card-btn button {
+    padding: 16px 30px;
+    width: 50%;
+}
 
 
 /* Workflow */
