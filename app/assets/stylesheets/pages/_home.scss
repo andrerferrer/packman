@@ -229,19 +229,20 @@ depois refatoramos, talkey?*/
     grid-gap: 3rem;
     justify-content: center;
     align-content: center;
-    height: 550px;
+    height: auto;
     width: auto;
+    margin: 5rem auto;
 }
 
 .team-member-photo {
     background-color: green;
-    height: 450px;
-    width: 350px;
+    height: 30rem;
+    width: 23rem;
 }
 
 .team-member-info {
     padding: 2rem 0;
-    width: 585px;
+    width: 37rem;
     text-align: left;
 }
 
