@@ -44,7 +44,7 @@ depois refatoramos, talkey?*/
 .packs-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 45px;
+    grid-gap: 3.5rem;
     padding: 7rem;
 }
 
@@ -115,6 +115,7 @@ depois refatoramos, talkey?*/
     margin: 1.5rem auto 3.5rem;
 }
 
+// temp button design
 .packs-card-btn button {
     padding: 16px 30px;
     width: 50%;
