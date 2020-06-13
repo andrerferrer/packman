@@ -8,7 +8,7 @@ depois refatoramos, talkey?*/
 
 /* Shared */
 * {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .uppercase {
@@ -19,14 +19,15 @@ depois refatoramos, talkey?*/
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    margin: 1rem auto;
 }
 
 .subtitle{
     font-size: 1rem;
     max-width: 80%;
-    margin: 0 auto;
     text-align: center;
     font-weight: bold;
+    margin: 1rem auto 0;
 }
 .description{}
 
@@ -40,9 +41,9 @@ depois refatoramos, talkey?*/
 
 .main-logo {
     color: $primary-text-color;
-    font-size: 55px;
+    font-size: 3rem;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 3rem;
 }
 
 .main-header{
@@ -98,7 +99,7 @@ depois refatoramos, talkey?*/
 .workflow {
     height: auto;
     background-image: $gradient;
-    padding: 60px;
+    padding: 5rem;
 }
 
 .workflow-title {
@@ -108,16 +109,13 @@ depois refatoramos, talkey?*/
 .workflow-subtitle {
     color: white;
     width: 50%;
-    margin-top: 10px;
 }
 
 .workflow-steps-card {
     width: 50%;
-    padding: 55px 0 0;
     line-height: 2.2rem;
     list-style: none;
-    margin: 0 auto;
-
+    margin: 4rem auto 0;
 }
 
 .workflow-steps {
@@ -135,7 +133,7 @@ depois refatoramos, talkey?*/
     text-align: center;
     height: 500px;
     background-color: $secondary-color;
-    padding: 90px 0;
+    padding: 7rem 0;
 }
 
 .clients-title {}
@@ -151,7 +149,7 @@ depois refatoramos, talkey?*/
 .us {
     text-align: center;
     height: fit-content;
-    padding: 90px 0;
+    padding: 7rem 0;
     background-color: $primary-color;
 }
 
@@ -218,7 +216,7 @@ depois refatoramos, talkey?*/
     height: fit-content;
     background-color: $primary-color;
     text-align: center;
-    padding: 100px 0;
+    padding: 4rem 0;
     
 }
 .team-title {
@@ -228,7 +226,7 @@ depois refatoramos, talkey?*/
 .team-member {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 100px;
+    grid-gap: 3rem;
     justify-content: center;
     align-content: center;
     height: 550px;
@@ -242,7 +240,7 @@ depois refatoramos, talkey?*/
 }
 
 .team-member-info {
-    padding: 40px 0px;
+    padding: 2rem 0;
     width: 585px;
     text-align: left;
 }
@@ -255,7 +253,7 @@ depois refatoramos, talkey?*/
 
 .team-member-info-description {
     color: $primary-text-color;
-    padding-top: 15px;
+    padding-top: 1rem;
 }
 
 .team-btn {}
@@ -263,7 +261,7 @@ depois refatoramos, talkey?*/
 
 /* Footer */
 .footer {
-    height: 200px;
+    height: 9rem;
     background-image: $gradient;
     display: flex;
     justify-content: center;
