@@ -41,6 +41,3 @@ yarn-debug.log*
 # Ignore Mac and Linux file system files
 *.swp
 .DS_Store
-
-# Ignore VScode json settings
-.vscode/settings.json
