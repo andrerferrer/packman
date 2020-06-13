@@ -7,129 +7,270 @@ year: 2020
 depois refatoramos, talkey?*/
 
 /* Shared */
-.btn {}
+* {
+    font-size: 20px;
+}
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+.description{}
 
 /* Main */
 .main {
-    height: 80vh;
-    background-color: #081627;
+    background-color: $primary-color;
+    height: 85vh;
+    text-align: center;
+    display: grid;
 }
-.main__logo {}
-.main__header{}
-.main__callout{}
-.main__services{}
-.main__btn{}
+
+.main-logo {
+    color: $primary-text-color;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.main-header{
+    color: $primary-text-color;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: -webkit-left;
+}
+
+.main-callout{}
+.main-services{}
+.main-btn{}
 
 
 /* Companies */
 .companies {
-    height: 20vh;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.companies__logo{}
+.companies-logo {
+    //example
+    width: 12rem;
+    height: 55px;
+}
 
 
 /* Packs */
 .packs {
     height: fit-content;
-    background-color: #081627;
+    background-color: $primary-color;
 }
 
-.packs__title{}
-.packs__description{}
-.packs__card{}
-.packs__card__title{}
-.packs__card__description{}
-.packs__card__services{}
-.packs__card__service--title {}
-.packs__card__service--description {}
-.packs__card__price{}
-.packs__card__deadline{}
-.packs__card__btn{}
+.packs-title{}
+.packs-description{}
+.packs-card{}
+.packs-card-title{}
+.packs-card-description{}
+.packs-card-services{}
+.packs-card-service-title {}
+.packs-card-service-description {}
+.packs-card-price{}
+.packs-card-deadline{}
+.packs-card-btn{}
 
 
 /* Workflow */
 .workflow {
-    height: 500px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    height: auto;
+    background-image: $gradient;
+    padding: 60px;
 }
 
-.workflow__title {}
-.workflow__description {}
-.workflow__steps {}
-.workflow__btn {}
+.workflow-title {
+    color: $primary-color;
+}
+
+.workflow-subtitle {
+    color: white;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.workflow-steps-card {
+    width: 50%;
+    padding: 55px 0 0;
+    line-height: 2.2rem;
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.workflow-steps {
+}
+
+.workflow-step {
+    list-style: none;
+    padding-bottom: 2rem;
+}
+.workflow-btn {}
 
 
 /* Clients */
 .clients {
+    text-align: center;
     height: 500px;
-    background-color: #22193C;
+    background-color: $secondary-color;
+    padding: 90px 0;
 }
 
-.clients__title {}
-.clients__description {}
-.clients__cards {}
-.clients__card {}
-.clients__card {}
-.clients__card {}
-.clients__btn {}
+.clients-title {}
+.clients-description {}
+.clients-cards {}
+.clients-card {}
+.clients-card {}
+.clients-card {}
+.clients-btn {}
 
 
 /* Us */
 .us {
-    height: 500px;
-    background-color: #081627;
+    text-align: center;
+    height: fit-content;
+    padding: 90px 0;
+    background-color: $primary-color;
 }
-.us__title {}
-.us__description {}
-.us__info {}
-.us__btn {}
+
+.us-title {    
+    color: $primary-text-color;
+}
+
+.us-subtitle {
+    color: $secondary-text-color;
+}
+
+.us-info {
+    color: $primary-text-color;
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: left;
+}
+
+.us-btn {}
 
 
 /* FAQ */
 .faq {
-    height: 500px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
+    height: fit-content;
+    padding: 5rem 0;
+    text-align: center;
 }
-.faq__title {}
-.faq__description {}
-.faq__question {}
-.faq__question--title {}
-.faq__question--answer {}
-.faq__btn {}
+
+.faq-title {
+    color: $primary-color;
+
+}
+
+.faq-subtitle {
+    color: white;
+}
+
+.faq-questions {
+    margin: 2rem 0;
+}
+
+.faq-question {
+    margin-bottom: 1rem;
+}
+
+.faq-question-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+.faq-question-answer {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.faq-btn {
+}
 
 
 /* Team */
 .team {
-    height: 800px;
-    background-color: #081627;
+    height: fit-content;
+    background-color: $primary-color;
+    text-align: center;
+    padding: 100px 0;
+    
 }
-.team__title {}
-.team__member {}
-.team__member__photo {}
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
-.team__member {}
-.team__member__photo {}
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
-.team__member {}
-.team__member__photo {}
-.team__member__info {}
-.team__member__info__title {}
-.team__member__info__description {}
-.team__btn {}
+.team-title {
+    color: yellow;
+    margin: 3rem 0;
+}
+.team-member {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+    justify-content: center;
+    align-content: center;
+    height: 550px;
+    width: auto;
+}
+
+.team-member-photo {
+    background-color: green;
+    height: 450px;
+    width: 350px;
+}
+
+.team-member-info {
+    padding: 40px 0px;
+    width: 585px;
+    text-align: left;
+}
+
+.team-member-info-title {
+    color: $primary-text-color;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.team-member-info-description {
+    color: $primary-text-color;
+    padding-top: 15px;
+}
+
+.team-btn {}
 
 
 /* Footer */
 .footer {
     height: 200px;
-    background-image: linear-gradient(to right, #fee93e, #ffc938, #ffaa3f, #ff8b4d, #ff6f5b, #ff6468, #fe5a77, #f95286, #fa5796, #f95da6, #f664b6, #f26cc5);
+    background-image: $gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.footer__info {}
-.footer__logo {}
-.footer__year {}
+
+.footer-info {}
+.footer-logo {}
+.footer-year {
+    font-weight: bold;
+}
