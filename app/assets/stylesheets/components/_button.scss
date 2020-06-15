@@ -1,0 +1,26 @@
+.btn {
+  text-align: initial;
+  display: flex;
+  align-items: center;
+}
+.main-btn{
+  font-size: 21px;
+  border-radius: 10px;
+  background-color: $aquamarine;
+  border: solid rgba(255, 199, 15, 1) 5px;
+  color: black;
+
+  position: relative;
+  box-shadow: 1px 1px gray, 3px 3px gray, 5px 5px gray, 7px 7px gray, 9px 9px gray;
+  transition: all 0.12s ease 0s;
+  &:hover {
+  background: $pink;
+  color: white;
+  box-shadow: 1px 1px 0 gray;
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
