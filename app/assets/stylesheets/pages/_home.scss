@@ -3,7 +3,7 @@ author: Romeiros on Rails
 year: 2020
 ****************************************************/
 
-/* Vou ir colocando o CSS da HOME todo aqui, 
+/* Vou ir colocando o CSS da HOME todo aqui,
 depois refatoramos, talkey?*/
 
 /* Shared */
@@ -136,16 +136,47 @@ depois refatoramos, talkey?*/
 
 /* Clients */
 .clients {
-    height: 500px;
-    background-color: #22193C;
+  text-align: center;
+  padding: 6rem 2rem;
+  background-color: #22193C;
+
+  .clients-title h2{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #7ff4e7;
+  }
+  .clients-description p {
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+    color: #f06097;
+  }
+
+  .clients-cards {
+    display: flex;
+  }
+
+  .clients-cards h3 {
+    font-weight: bold;
+  }
+  .client-card {
+    text-align: initial;
+    background-color: $yellow;
+    border-radius: 15px;
+    width: 24rem;
+    height: fit-content;
+    padding: 0.9rem 2rem;
+    margin: 0rem 1rem;
+  }
+  .client-card .p-15 {
+    font-size: 0.9rem;
+  }
+
+  .margin-top-48 {
+    margin-top: 3rem;
+  }
 }
 
-.clients__title {}
-.clients__description {}
-.clients__cards {}
-.clients__card {}
-.clients__card {}
-.clients__card {}
+
 .clients__btn {}
 
 
