@@ -3,7 +3,7 @@ author: Romeiros on Rails
 year: 2020
 ****************************************************/
 
-/* Vou ir colocando o CSS da HOME todo aqui, 
+/* Vou ir colocando o CSS da HOME todo aqui,
 depois refatoramos, talkey?*/
 
 /* Shared */
@@ -11,17 +11,87 @@ depois refatoramos, talkey?*/
 
 
 /* Main */
-.main {
-    height: 80vh;
-    background-color: #081627;
+.line-height-05 {
+  line-height: 0.5rem;
 }
-.main__logo {}
-.main__header{}
-.main__callout{}
-.main__services{}
-.main__btn{}
 
+.margin-top-24 {
+  margin-top: 1.5rem;
+}
 
+.p-13 {
+  font-size: 0.82rem;
+}
+
+.p-17 {
+  font-size: 1.06rem;
+}
+
+.p-18 {
+  font-size: 1.13rem;
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.main {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-attachment: fixed;
+  background-color: #081627;
+  color: #7ff4e7;
+  text-align: center;
+  padding: 2rem 2rem 4.5rem;
+}
+
+.main-logo img {
+  margin: 0rem 0rem 4rem;
+}
+
+.main-header img {
+  display: block;
+  left: 20rem;
+  top: 11rem;
+  position: absolute;
+}
+
+.block-header-text {
+  margin-left: 27.5rem;
+  text-align: justify;
+  .border-bottom {
+    border-bottom: 1px solid #7ff4e7;
+    padding-bottom: 0.9rem;
+  }
+}
+
+.text-main {
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+.main-callout {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  width: 48.3vw;
+  padding: 1rem;
+  margin: 4rem 1rem 1rem 18rem;
+  text-shadow: 3px 4px 4px #272424;
+
+  .callout-title {
+    font-family: 'Press Start 2P';
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .callout-and {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+}
+
+.main-services {
+  padding: 2rem 1rem;
+}
 /* Companies */
 .companies {
     height: 20vh;
